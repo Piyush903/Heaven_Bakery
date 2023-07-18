@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- BootStrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Owl Slider CSS -->
+    <link rel="stylesheet" th:href="@{/css/owl.carousel.min.css}">
+    <link rel="stylesheet" th:href="@{/css/owl.theme.default.min.css}">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+    
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- FontAwesome JS -->
+    <script src="https://kit.fontawesome.com/0d699df7e6.js" crossorigin="anonymous"></script>
+
+    <title>Register</title>
+
+</head>
+
+<body>
+
+    <!-- Navbar Section Starts -->
+
+    <nav class="navbar navbar-expand-lg navbar_section">
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#"> <img th:src="@{/images/MedWebLogo.jpeg}" src="../static/images/MedWebLogo.jpeg" width="auto" height="40" class="d-inline-block align-top" alt="" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav mr-auto"></ul>
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item active"><a class="nav-link" th:href="@{/}" href="#">Home</a></li>
+
+                    <li class="nav-item active"><a class="nav-link" th:href="@{/shop}" href="#">Shop</a></li>
+
+                    <li class="nav-item active"><a class="nav-link" th:href="@{/about}" href="#">About Us</a></li>
+
+                    <li class="nav-item active"><a class="nav-link" th:href="@{/contact}" href="#">Contact Us</a></li>
+
+                    <li class="nav-item active"><a class="nav-link" sec:authorize="isAnonymous()" th:href="@{/login}" href="#">Login</a>
+                    </li>
+
+                    <li class="nav-item active"><a class="nav-link" sec:authorize="isAuthenticated()" th:href="@{/logout}" href="#">Logout</a>
+                    </li>
+
+                    <li class="nav-item active"><a class="nav-link" th:href="@{/cart}" href="#">Cart</a></li>
+
+                    <li class="nav-item active"><span class="nav-link" th:text="${cartCount}">0</span></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Navbar Section Ends -->
+
+    <!-- Main Container Starts -->
+
+    <div class="container-fluid register_mainContainer p-1" style="height: 92vh;">
+
+        <div class="container">
+
+            <!-- Row Starts -->
+
+            <div class="row">
+
+                <!-- Column Starts -->
+
+                <div class="col-sm-6 text-center animate__animated animate__zoomIn">
+
+                    <h3 style="margin-top: 5px" class="bold">Sign Up Now</h3>
+
+                    <p>Please fill out this to register</p>
+
+                    <div class="card register_commonClass bold">
+
+                        <div class="card-body">
+
+                            <!-- Form Starts -->
+
+                            <form th:action="@{/register}" th:object="${user}" method="post">
+
+                                <!-- First Name Field -->
+
+                                <div class="form-group">
+
+                                    <label for="firstName">First Name</label>
+
+                                    <input type="text" name="firstName" id="firstName" required placeholder="Your First Name" class="form-control form-control-lg">
+
+                                </div>
+
+                                <!-- Last Name Field -->
+
+                                <div class="form-group">
+
+                                    <label for="lastName">Last Name</label>
+
+                                    <input type="text" name="lastName" id="lastName" required placeholder="Your Last Name" class="form-control form-control-lg">
+
+                                </div>
+
+                                <!-- Email Address Field -->
+
+                                <div class="form-group">
+
+                                    <label for="email">Email address</label>
+
+                                    <input type="email" class="form-control form-control-lg" required minlength="6" placeholder="Your Email" name="email" id="email" aria-describedby="emailHelp">
+
+                                    <small id="emailHelp" class="form-text text-muted">
+
+                                        We'll never share your email with anyone else.
+
+                                    </small>
+
+                                </div>
+
+                                <!-- Password Field -->
+
+                                <div class="form-group">
+
+                                    <label for="password">Password</label>
+
+                                    <input type="password" class="form-control form-control-lg" required placeholder="Your Password" name="password" id="password">
+
+                                </div>
+
+                                <!-- Register Button -->
+
+                                <input type="submit" value="Register" class="btn btn-hover register-btn btn-block p-2 m-2">
+
+                                <span style="margin-top: 10px">
+
+                                    Already have an account 
+
+                                    <a class="linkControl" href="./login.html" th:href="@{/login}">
+                                        
+                                        Login here
+
+                                    </a>
+
+                                </span>
+
+                            </form>
+
+                            <!-- Form Ends -->
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Column Ends -->
+
+            </div>
+
+            <!-- Row Ends -->
+
+        </div>
+
+    </div>
+
+    <!-- Main Container Ends -->
+
+    <!-- Linking our External JS Files -->
+
+    <!-- JQuery from Official Website -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js " integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin=" anonymous "></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <!-- jquery.slim.min.js contains only that much JQuery which i s required by the BootStrap -->
+
+    <!-- Here as we are also using Owl Slider, so we are using jquery-3.6.0.min.js from the official site -->
+
+    <!-- This wil contain the pure JQuery -->
+
+    <!--  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js " integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2 " crossorigin="anonymous "></script>
+
+    <!-- Owl Slider JS -->
+
+    <script th:src="@{/js/owl.carousel.min.js}"></script>
+    
+    <!-- Custom JS -->
+   
+    <script th:src="@{/js/script.js}"></script>
+    
+    <script th:src="@{/js/script_new.js}"></script>
+
+    <!-- Owl Slider Calling the Plugin JS -->
+
+    <script>
+        $(document).ready(function() {
+            $(".owl-carousel ").owlCarousel(
+
+                // Also, here only making our owl carousel reponsive... 
+                // Doing so by creating an object... 
+
+                {
+
+                    // Copied from Owl Slider Responsive documentation...
+
+                    loop: true,
+                    margin: 10,
+                    autoplay: true,
+
+                    responsive: {
+                        0: {
+                            items: 1,
+                            nav: true
+                        },
+                        600: {
+                            items: 3,
+                            nav: false
+                        },
+                        1000: {
+                            items: 3,
+                            nav: true,
+                            loop: false
+                        }
+                    }
+
+                }
+
+            );
+        });
+    </script>
+
+</body>
+
+</html>

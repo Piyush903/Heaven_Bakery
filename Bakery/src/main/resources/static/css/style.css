@@ -1,0 +1,751 @@
+.btn:hover{
+	box-shadow: 29px 29px 100px #b6b6b6, -29px -29px 100px #cacaca!important;
+	font-weight: 600!important;
+	color: white!important;	
+}
+nav a {
+    color: white;
+}
+
+nav a:hover{	
+	background: #434956;
+    box-shadow: -11px -11px 56px #30343d, 11px 11px 56px #565e6f;
+    font-weight: bolder;
+    color: white;	
+}
+
+.navbar_section {
+    border-radius: 0px;
+    background: #434956;
+    box-shadow: -11px -11px 56px #30343d, 11px 11px 56px #565e6f;
+    color: white;
+}
+
+.home_navbar_section {
+    border-radius: 0px;
+    background: #434956;
+    box-shadow: -11px -11px 56px #30343d, 11px 11px 56px #000000;
+    color: white;
+}
+
+.home_section {
+    /* background-image: url("../images/BannerImg.jpg"); */
+    background-size: cover;
+    min-height: 100vh;
+    max-height: 100vh; 
+    min-width: 100%;
+    max-width: 100%;
+    color: white;
+}
+
+.home_carousel_images {
+    max-height: 70vh;
+    max-width: 80%;
+    background-size: contain;
+}
+
+.home_services {
+    padding-bottom: 6vh;
+    border-radius: 0px;
+    background: linear-gradient(145deg, #c2c2c2, #e7e7e7);
+    box-shadow: 29px 29px 100px #cdcdcd, -29px -29px 100px #e3e3e3;
+}
+
+.home_servicesCard {
+    background-color: unset;
+}
+
+.home_servicesCardBody {
+    border-radius: 0px;
+    background: #F8F8F8;
+    box-shadow: inset 29px -29px 100px #b8b8b8, inset -29px 29px 100px #ffffff;
+}
+
+.home_reviewMainContainer {
+    border-radius: 0px;
+    background: linear-gradient(145deg, #bbbbbb, #dfdfdf);
+    box-shadow: 29px 29px 100px #c6c6c6, -29px -29px 100px #dadada;
+}
+
+.home_reviewCardBody {
+    border-radius: 0px;
+    background: #F8F8F8;
+    box-shadow: inset 29px -29px 100px #b8b8b8, inset -29px 29px 100px #ffffff;
+}
+
+.home_aboutMainContainer {
+    border-radius: 0px;
+    background: linear-gradient(145deg, #adadad, #cdcdcd);
+    box-shadow: 29px 29px 100px #b6b6b6, -29px -29px 100px #cacaca;
+}
+
+.about_section_image {
+    /* background-image: url("../images/AboutUs1.jpg"); */
+	background-size: cover;
+    height: 50vh;
+}
+
+.home_socialMediaMainContainer {
+    border-radius: 0px;
+    background: linear-gradient(145deg, #adadad, #cdcdcd);
+    box-shadow: 29px 29px 100px #b6b6b6, -29px -29px 100px #cacaca;
+}
+
+.home_socialMediaReviewCard {
+    background-color: unset;
+}
+
+.home_socialMediaReviewCardBody {
+    border-radius: 0px;
+    background: #F8F8F8;
+    box-shadow: inset 29px -29px 100px #b8b8b8, inset -29px 29px 100px #ffffff;
+}
+
+.home_contactUs_mainContainer {
+    border-radius: 0px;
+    background: linear-gradient(145deg, #909090, #ababab);
+    box-shadow: 29px 29px 100px #989898, -29px -29px 100px #a8a8a8;
+}
+
+.contact_section_content{
+    margin: 15px;
+    color: #1300f2;
+    font-weight: 900; 
+    font-size: 18px;   
+}
+
+.contact_section_content a{
+    margin: 25px;
+    color: #1300f2;
+    font-weight: 900; 
+    font-size: 18px;    
+}
+
+
+/* *************************** */
+
+.loginpage_main_container {
+    background: #757F9A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D7DDE8, #757F9A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.loginpage_main_container_card {
+    background: rgba( 255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.loginpage_loginButton {
+    background: rgba( 13, 71, 255, 0.85);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    color: white;
+}
+
+.loginPage_googleButton {
+    background: rgba( 13, 71, 255, 0.85);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    color: white;
+}
+
+
+/* *************************** */
+
+.viewProductPage_mainContainer {
+    background: #757F9A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D7DDE8, #757F9A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 92vh!important;
+    height: fit-content!important;
+}
+
+.viewProductPage_detailsDiv {
+    background: rgba( 255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    height: max-content;
+    padding: 5vh;
+}
+
+.viewProductPage_addToCartButton {
+    background: rgba( 13, 71, 255, 0.85);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    color: white;
+}
+
+.viewProductPage_backToShopButton {
+    background: rgba( 13, 71, 255, 0.85);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    color: white;
+}
+
+
+/* *************************** */
+
+.categoriesPage_mainContainer {
+    background: #757F9A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D7DDE8, #757F9A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 92vh!important;
+    height: fit-content!important;
+}
+
+.categoriesPage_table {
+    background: rgba( 255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.categoriesPage_addCategoryButton {
+    background: rgba( 13, 71, 255, 0.85);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    color: white;    
+}
+
+.categoriesPage_deleteCategoryButton {
+    background: rgba(255, 0, 0, 0.6);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 15.5px);
+    -webkit-backdrop-filter: blur( 15.5px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.categoriesPage_updateCategoryButton {
+    background: rgba( 144, 19, 254, 0.6);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 15.5px);
+    -webkit-backdrop-filter: blur( 15.5px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+
+/* *************************** */
+
+.categoriesAdd_mainContainer {
+    background: #757F9A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D7DDE8, #757F9A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 92vh!important;
+    height: fit-content!important;
+}
+
+.categoriesAdd_mainContainerCard {
+    background: rgba( 255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.categoriesAdd_submitButton {
+    background: rgba( 13, 71, 255, 0.85);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    color: white;
+}
+
+.categoriesPage_goBackToCategoriesButton {
+    background: rgb(255, 0, 0);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 15.5px);
+    -webkit-backdrop-filter: blur( 15.5px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+
+/* *************************** */
+
+.adminHome_welcomeBodySection {
+    background: #757F9A;
+}
+
+.adminHome_adminPanelSection {
+    background: #757F9A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D7DDE8, #757F9A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.adminHome_adminPanelCardSection {
+    background: rgba( 255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+
+/* *************************** */
+
+.product_mainContainer {
+    background: #757F9A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D7DDE8, #757F9A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 92vh!important;
+    height: fit-content!important;
+}
+
+.product_table {
+    background: rgba( 255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.product_addProductButton {
+    background: rgba( 13, 71, 255, 0.85);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    color: white;
+}
+
+.product_deleteProductButton {
+    background: rgba(255, 0, 0, 0.6);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 15.5px);
+    -webkit-backdrop-filter: blur( 15.5px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.product_updateProductButton {
+    background: rgba( 144, 19, 254, 0.6);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 15.5px);
+    -webkit-backdrop-filter: blur( 15.5px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+
+/* *************************** */
+
+.productsAdd_mainContainer {
+    background: #757F9A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D7DDE8, #757F9A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 92vh!important;
+    height: fit-content!important;
+}
+
+.productsAdd_submitButton {
+    background: rgba( 13, 71, 255, 0.85);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    color: white;
+}
+
+
+/* *************************** */
+
+.shop_mainContainer {
+    background: #757F9A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D7DDE8, #757F9A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 92vh!important;
+    height: fit-content!important;
+}
+
+.shop_categorySection {
+    background: rgba( 255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.shop_productCard {
+    background-color: unset;
+}
+
+.shop_productCardDiv {
+    background: rgba( 255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.shop_viewProductButton {
+    background: rgba( 13, 71, 255, 0.85);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    color: white;
+}
+
+
+/* *************************** */
+
+.checkout_mainContainer {
+    background: #757F9A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D7DDE8, #757F9A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.checkout_mainContainerCard {
+    background: rgba( 255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.checkout_mainContainerCard_innerDivs {
+    background-color: unset;
+}
+
+.checkout_payNowButton {
+    background: rgba( 13, 71, 255, 0.85);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    color: white;
+}
+
+
+/* *************************** */
+
+.cart_mainContainer {
+    background: #757F9A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D7DDE8, #757F9A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cart_mainContainerCommonClass {
+    background: rgba( 255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    min-height: 92vh!important;
+    height: fit-content!important;
+}
+
+.cart_mainContainerCommonClass_innerDivs {
+    background-color: unset;
+}
+
+.cart_goToCheckoutButton {
+    background: rgba( 13, 71, 255, 0.85);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    color: white;
+}
+
+
+/* *************************** */
+
+.register_mainContainer {
+    background: #757F9A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D7DDE8, #757F9A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 92vh!important;
+    height: fit-content!important;
+}
+
+.register_commonClass {
+    background: rgba( 255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.register_registerButton {
+    background: rgba( 13, 71, 255, 0.85);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    color: white;
+}
+
+
+/* *************************** */
+
+.orderPlaced_mainContainer {
+    background-image: linear-gradient(to top, #69d40c 0%, #00e3ae 100%);
+}
+
+.orderPlaced_commonClass {
+    background-image: linear-gradient(-225deg, #DFFFCD 0%, #90F9C4 48%, #39F3BB 100%);
+}
+
+
+/* *************************** */
+
+.aboutUs_mainContainer {
+    background: #757F9A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D7DDE8, #757F9A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 92vh!important;
+    height: fit-content!important;
+}
+
+.aboutUs_commonClass {
+    background: rgba( 255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    height: fit-content!important;
+    padding: 5vh;
+}
+
+/* *************************** */
+
+.contactUs_mainContainer {
+    background: #757F9A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D7DDE8, #757F9A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contactUs_commonClass {
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    height: 80vh;
+    padding: 5vh;
+}
+
+.contact_submitButton{
+	background: rgba(29, 109, 0, 0.85);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    color: white;
+}
+
+/*********/
+
+.neon {
+  color: #000000;
+  text-shadow:
+    0 0 5px #0b0909,
+    0 0 10px #ffffff,
+    0 0 20px #ffffff,
+    0 0 40px #ffffff,
+    0 0 80px #ffffff,
+    0 0 90px #ffffff,
+    0 0 100px #ffffff,
+    0 0 150px #ffffff;
+    font-weight: bolder;	 
+}
+.bold{
+	font-weight: bolder;
+}
+
+.btn-hover {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.delete {
+    background-image: linear-gradient(to right, #ff0000, #ff008d, #e30000, #f03635);
+    box-shadow: 0 4px 15px 0 rgb(0 0 0 / 75%);
+}
+
+.btn-hover.update {
+    background-image: linear-gradient(to right, #007925, #00ff1f, #1dad0d, #0d700c);
+    box-shadow: 0 4px 15px 0 rgb(0 0 0 / 75%);
+}
+
+.btn-hover.add {
+    background-image: linear-gradient(to right, #000d59, #0c6dd8, #1e1e37, #06316c);
+    box-shadow: 0 4px 15px 0 rgb(0 0 0 / 75%);
+}
+
+.btn-hover.submit {
+	background-image: linear-gradient(to right, #4bff13, #122d03, #10730d, #191b19);
+    box-shadow: 0 4px 15px 0 rgb(0 0 0 / 75%);
+}
+    
+.btn-hover.return {
+	background-image: linear-gradient(to right, #ff5909, #ff0000, #5e1713, #ff0000);
+    box-shadow: 0 4px 15px 0 rgb(0 0 0 / 75%);
+}
+
+.btn-hover.manage {
+	background-image: linear-gradient(to right, #dd05ff, #ff0000, #bd1a1a, #ff0974);
+    box-shadow: 0 4px 15px 0 rgb(0 0 0 / 75%);
+    width: 15vw;
+}
+
+.btn-hover.view{
+	background-image: linear-gradient(to right, #001955, #1075fc, #1075fc, #072365);
+    box-shadow: 0 4px 15px 0 rgb(0 0 0 / 75%);
+}
+
+.btn-hover.viewProductButton{
+	background-image: linear-gradient(to right, #550000, #f12d2d, #290202, #f12d2d);
+    box-shadow: 0 4px 15px 0 rgb(0 0 0 / 75%);
+}
+
+.btn-hover.checkout{
+	background-image: linear-gradient(to right, #ff0000, #600000, #600000, #ff0000);
+    box-shadow: 0 4px 15px 0 rgb(0 0 0 / 75%);
+}
+
+.btn-hover.pay{
+	background-image: linear-gradient(to right, #75ff00, #194114, #143610, #75ff00);
+    box-shadow: 0 4px 15px 0 rgb(0 0 0 / 75%);
+}
+
+.btn-hover.learnmore{
+	background-image: linear-gradient(to right, #489d00, #194114, #143610, #489d00);
+    box-shadow: 0 4px 15px 0 rgb(0 0 0 / 75%);
+}
+
+.btn-hover.query{
+	background-image: linear-gradient(to right, #000000, #1e08ff, #1e08ff, #000000);
+    box-shadow: 0 4px 15px 0 rgb(0 0 0 / 75%);
+}
+
+.btn-hover.login-btn{
+	background-image: linear-gradient(to right, #1b04ff, #0d0652, #1e08ff, #000000);
+    box-shadow: 0 4px 15px 0 rgb(0 0 0 / 75%);
+}
+
+.btn-hover.google-btn{
+	background-image: linear-gradient(to right, #ff009a, #ff0000, #ff0000, #ff009a);
+    box-shadow: 0 4px 15px 0 rgb(0 0 0 / 75%);
+}
+
+.btn-hover.register-btn{
+	background-image: linear-gradient(to right, #ff009a, #ff0000, #ff0000, #ff009a);
+    box-shadow: 0 4px 15px 0 rgb(0 0 0 / 75%);
+}
+
+:root {
+    --animate-duration: 1000ms;
+}
+
+
+
+
+
+
+
+
